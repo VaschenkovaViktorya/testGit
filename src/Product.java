@@ -15,7 +15,9 @@ public Product(){
     }
 
     private String name;
-
+public void buyProduct(){
+    System.out.println("купить продукт");
+}
 
 
 
