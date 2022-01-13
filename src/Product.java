@@ -15,6 +15,16 @@ public Product(){
     }
 
     private String name;
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    private int price;
 public void buyProduct(){
     System.out.println("купить продукт");
 }
