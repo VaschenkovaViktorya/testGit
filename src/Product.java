@@ -2,6 +2,9 @@ public class Product {
     public String getName() {
         return name;
     }
+public Product(){
+
+}
 
     public Product(String name) {
         this.name = name;
